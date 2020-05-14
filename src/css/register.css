@@ -1,0 +1,231 @@
+@charset "utf-8";
+/* 版心 */
+.register .login_type-page{
+    width: 1210px;
+}
+body{
+    font-size: 12px;
+    color: #666;
+}
+.login-header{
+    height: 110px;
+    background: url(https://misc.360buyimg.com/user/reg/3.0.0/css/i/headbg.jpg) repeat-x left bottom;
+}
+
+
+.login_type-page{
+    width: 990px;
+    margin: 0 auto;
+}
+#logo{
+    position: relative;
+    width: 300px;
+    margin: 10px 0;
+    height: 60px;
+    float: left;
+}
+a {
+    color: #666;
+    text-decoration: none;
+}
+a:hover {
+    color: #E4393C;
+    text-decoration: underline;
+}
+.q-link{
+    position: relative;
+    color: #999;
+    float: right;
+    top: 52px;
+}
+.q-link b{
+    display: inline-block;
+    width: 18px;
+    height: 14px;
+    margin: 0 5px;
+    background: url(https://misc.360buyimg.com/user/passport/1.0.0/css/i/q-icon.png) no-repeat;
+    overflow: hidden;
+    vertical-align: middle;
+}
+
+
+.register .middle{
+    height: 407px;
+} 
+.content-step{
+    position: relative;
+    margin: 80px auto 0;
+    width: 400px;
+    height: 55px;
+}
+.pro-step {
+    float: left;
+    text-align: center;
+}
+.cur-step .step-index {
+    background-position: 0 -200px;
+    color: #fff;
+}
+.pro-step .step-index{
+    margin: 0 auto;
+    display: block;
+    width: 24px;
+    height: 24px;
+    line-height: 24px;
+
+    font-size: 12px;
+    font-weight: 700;
+    color: #ccc;
+    background: url(http://misc.360buyimg.com/user/reg/3.0.0/css/i/reg-icon.png) no-repeat;
+    background-position: -45px -200px;
+}
+/* .pro-step1 .step-index{
+    background-position: 0 -200px;
+    color: #fff;
+} */
+/* 目前换成这个，做了动态样式再调整 */
+.pro-step2 .step-index{
+    background-position: 0 -200px;
+    color: #fff;
+}
+.step-desc{
+    margin-top: 10px;
+    font-size: 12px;
+    color: #999;
+}
+.pro-step2 .step-desc{
+    color: #3b4;
+}
+.proline{
+    height: 10px;
+    width: 124px;
+    position: absolute;
+    top: 7px;
+    background: url(http://misc.360buyimg.com/user/reg/3.0.0/css/i/reg-icon.png) no-repeat;
+    background-position: 0 -100px;
+}
+
+.proline1{
+    left: 55px;
+}
+.pro-step2{
+    margin-left: 106px;
+}
+.pro-step3{
+    margin-left: 106px;
+}
+.proline2{
+    left: 228px;
+}
+
+
+
+
+.main {
+    margin: 50px auto 186px;
+    width: 400px;
+
+}
+.main input{
+    width: 280px;
+    height: 30px;
+    margin-bottom: 10px;
+}
+.input-userId,.input-userpass,.input-repass{
+    margin-left: 10px;
+    position: relative;
+}
+.input-userId>input{
+    margin-left: 15px;
+    font-size: 12px;
+}
+.input-userpass>input{
+    margin-left: 32px;
+    font-size: 12px;
+}
+.input-repass>input{
+    margin-left: 7px;
+    font-size: 12px;
+}
+
+.input-userId>span,.input-userpass>span,.input-repass>span{
+    position: absolute;
+    right: -120px;
+    top: 8px;
+}
+#message-box{
+    margin-top: 15px;
+    text-align: center;
+}
+.form-item-box{
+    height: 86px;
+    position: relative;
+    z-index: 2;
+}
+.form-item1{
+    position: relative;
+    border: solid 1px #ddd;
+    width: 398px;
+    height: 52px;
+    text-align: center;
+    line-height: 52px;
+    color: rgb(204, 204, 204);
+}
+.select-country{
+    float: left;
+    width: 87px;
+    height: 50px;
+    line-height: 50px;
+    padding: 0 0 0 20px;
+    cursor: pointer;
+    color: #666;
+    border-right: 1px solid #ddd;
+}
+.yanzheng{
+    line-height: 52px;
+    text-align: center;
+    font-size: 14px;
+    color: #333;
+    cursor: pointer;
+    z-index: 2;
+    border: solid 1px #ddd;
+    width: 398px;
+    height: 52px;
+}
+.step-next{
+    width: 100%;
+    height: 41px;
+    line-height: 41px;
+    text-align: center;
+    color: #fff;
+    background: #e2231a;
+    border: 0;
+    font-size: 16px;
+    font-family: "Microsoft YaHei","Hiragino Sans GB";
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer-copyright{
+    padding-bottom: 30px;
+    text-align: center;
+}
+.footer-link-box a{
+    margin: 0 10px;
+}
+.copyright{
+    margin: 10px 0;
+}

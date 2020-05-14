@@ -1,0 +1,55 @@
+//sass的变量写法
+$baseSize:12px;
+$direction:bottom;
+
+
+#box1{
+    //1.如果变量用做属性，可以直接写
+    font-size: $baseSize +4;
+    //2.如果变量用做属性名，要加#{}
+    border-#{$direction}:1px solid red;
+
+}
+
+//可以拿来写嵌套
+#box2{
+    //1.写本身样式
+    border: 2px solid pink;
+    //2.写在box2内，其他标签的样式
+    .banner{
+        //3.这里还可以继续套写
+        width: 500px;
+        height: 400px;
+        background-color: orange;
+        //4.属性嵌套,一个属性写不同的样式
+        border:{
+            bottom:5px solid green;
+            right: 2px solid black;
+        }
+    }
+}
+
+@mixin red-box {
+    width: 200px;
+    height: 150px;
+    background-color: red;
+}
+
+//运用
+#box3{
+    @include red-box;
+
+    color: white;
+}
+
+@mixin blue-box($width:200px,$height:150px) {
+    width: $width;
+    height: $height;
+    background: blue;
+}
+//在运用的时候，可以再次更改属性
+#box5{
+    //参数也可以不写，就算是使用默认属性
+    @include blue-box(300px,200px );
+    color:pink;
+}
